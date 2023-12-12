@@ -23,10 +23,10 @@ function App() {
             <picture>
               <source
                 media="(min-width:500px)"
-                srcSet="../public/images/pattern-divider-desktop.svg"
+                srcSet="../images/pattern-divider-desktop.svg"
               />
               <img
-                src="../public/images/pattern-divider-mobile.svg"
+                src="../images/pattern-divider-mobile.svg"
                 alt="IfItDoesntMatchAnyMedia"
               />
             </picture>
