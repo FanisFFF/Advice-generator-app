@@ -23,10 +23,10 @@ function App() {
             <picture>
               <source
                 media="(min-width:500px)"
-                srcSet="../images/pattern-divider-desktop.svg"
+                srcSet="/images/pattern-divider-desktop.svg"
               />
               <img
-                src="../images/pattern-divider-mobile.svg"
+                src="/images/pattern-divider-mobile.svg"
                 alt="IfItDoesntMatchAnyMedia"
               />
             </picture>
@@ -34,7 +34,7 @@ function App() {
           <div className="relative-container">
             <div className="dice-container">
               <button onClick={handleClick}>
-                <img src="../images/icon-dice.svg" alt="" />
+                <img src="/images/icon-dice.svg" alt="" />
               </button>
             </div>
           </div>
