@@ -34,7 +34,7 @@ function App() {
           <div className="relative-container">
             <div className="dice-container">
               <button onClick={handleClick}>
-                <img src="../public/images/icon-dice.svg" alt="" />
+                <img src="../images/icon-dice.svg" alt="" />
               </button>
             </div>
           </div>
